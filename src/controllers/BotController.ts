@@ -2,7 +2,6 @@ import { Request, Response } from "express";
 import { Controller, Post } from "@overnightjs/core";
 import { Logger } from "@overnightjs/logger";
 import { sendMessage } from "../utils/twilio";
-import { runQuery } from "../utils/dialogflow";
 import { findProduct } from "../utils/mongo";
 
 @Controller("api/bot")
