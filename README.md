@@ -4,6 +4,8 @@ This application, written in Typescript, using NodeJs, Express, MongoDB, Twilio 
 
 "Check #XYZ", XYZ being the code of the product. Here you will find some examples of messages sent to the bot and its answers:
 
+![alt text](https://github.com/PaulClavierECP/Retail-ChatBot/blob/master/Screenshot.png)
+
 ## Initialization:
 
 ### App
