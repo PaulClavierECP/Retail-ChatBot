@@ -1,3 +1,6 @@
+# DialogFlow credentials
+credentials.json
+
 #CSV data
 /data/ImportArticulos.CSV
 /data/ImportStock.CSV
