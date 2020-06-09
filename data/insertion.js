@@ -5,7 +5,7 @@ var Stock = require('../src/models/Stock');
 const ArticulosData = require('./ImportArticulos.json')
 const StockData = require('./ImportStock.json')
 
-const uri = "mongodb+srv://dbUser:dbUserPassword@turbodega-eagio.gcp.mongodb.net/Products?retryWrites=true&w=majority"//process.env.ATLAS_URI;
+const uri = "<INSERT ATLAS_URI>"
 
 mongoose.connect(uri, {
   useNewUrlParser: true,
