@@ -19,13 +19,13 @@ Copy the template used for .env file using the .env.copy file.
 
 ### Twilio
 
-Head over to [Twilio] (https://www.twilio.com/try-twilio) to sign-up. Write down your ```Account SID``` and ```Auth Token```. Then go to the [Whatsapp sandbox] (https://www.twilio.com/console/sms/whatsapp/learn) and follow the instructions to start using the sandbox environment.
+Head over to [Twilio](https://www.twilio.com/try-twilio) to sign-up. Write down your ```Account SID``` and ```Auth Token```. Then go to the [Whatsapp sandbox](https://www.twilio.com/console/sms/whatsapp/learn) and follow the instructions to start using the sandbox environment.
 
 Add your ```Account SID``` and ```Auth Token``` to the .env file
 
 ### MongoDB
 
-Go to [Mongo DB Atlas] (https://www.mongodb.com/cloud/atlas) to create an account and then build a cluster. Once it is done, connect the cluster, creating a ```Username``` and a ```Password``` you need to note down. Choose "Connect Your application" for the connection method. Copy paste the ```Atlas URI``` link and put it in the .env file. Don't forget to change the password and dbname tags.
+Go to [Mongo DB Atlas](https://www.mongodb.com/cloud/atlas) to create an account and then build a cluster. Once it is done, connect the cluster, creating a ```Username``` and a ```Password``` you need to note down. Choose "Connect Your application" for the connection method. Copy paste the ```Atlas URI``` link and put it in the .env file. Don't forget to change the password and dbname tags.
 
 ### Data
 
@@ -40,7 +40,7 @@ node data/insertion.js
 For the demo to work properly you need to enable the port on which your app is currently working to be made public to the internet. To perform this task, I used Ngork.
 
 ### Ngrok
-You can download [Ngrok] (https://ngrok.com/) here.
+You can download [Ngrok](https://ngrok.com/) here.
 Once the installation is completed, launch ngrok and write:
 
 ```bash
