@@ -1,0 +1,12 @@
+# DialogFlow credentials
+/credentials
+
+#CSV data
+/data/ImportArticulos.CSV
+/data/ImportStock.CSV
+
+#.env
+.env
+
+#Modules
+/node_modules
